@@ -1,0 +1,11 @@
+{
+  "name": "expressapi",
+  "version": "1.0.0",
+  "description": "A test express js Restful API server",
+  "main": "./server/bin/www.js",
+  "scripts": {
+    "server": "nodemon ./server/bin/www.js"
+  },
+  "author": "Rain S. Zhang",
+  "license": "ISC"
+}
