@@ -4,8 +4,17 @@
   "description": "A test express js Restful API server",
   "main": "./server/bin/www.js",
   "scripts": {
-    "server": "nodemon ./server/bin/www.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Rain S. Zhang",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "compression": "^1.7.1",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.2",
+    "morgan": "^1.9.0",
+    "mysql": "^2.15.0",
+    "nodemon": "^1.12.1"
+  }
 }

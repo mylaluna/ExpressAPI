@@ -20,14 +20,20 @@ app.use(compression({
 }))
 
 // back end router
-app.use('/api/user', userApi)
+//app.use('/api/user', userApi)
+app.use('/movies', userApi)
 
+// app.get('/hello', function(req, res){
+//   res.send("Hello world!");
+// });
 // port listen
 app.use((req, res, next) => {
   var err = new Error('This page not found')
   err.status = 404
   next(err)
 })
+
+
 
 app.listen(3000, () => {
   console.log('Server running in port 3000...')
